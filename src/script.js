@@ -1,0 +1,1 @@
+console.log(import.meta.env.DEV) // true if debug, false if "real"
