@@ -22,7 +22,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 72bb09b62a11245e41cebf2e18106940
-          projectName: test
+          projectName: actlab-cloudflare-template
           directory: dist
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
