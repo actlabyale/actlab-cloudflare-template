@@ -5,7 +5,7 @@ document.getElementById('foo').addEventListener('click', async () => {
     const resp = await fetch('https://api.actlab.dev/template', {
         method: 'GET',
         // mode: 'same-origin',
-        cache: 'no-cache',
+        // cache: 'no-cache',
         // headers: {
         //     "content-type": "application/json",
         // },
